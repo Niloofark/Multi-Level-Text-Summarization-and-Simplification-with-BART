@@ -1,7 +1,7 @@
 ## Multi-Level Text Simplification with BART
 
-An end-to-end NLP pipeline for text simplification and summarization using BART, applied across two phases: OneStopEnglish (OSE) in Phase 1 and M3 in Phase 2.
-Includes full data cleaning, EDA, fine-tuning, and joint multi-dataset training.
+A complete BART-based text simplification system covering data cleaning, EDA, fine-tuning, and evaluation on the OneStopEnglish and M3 datasets. The project develops level-controlled simplification models and a joint multi-dataset model that generalizes across both domains.
+
 
 ## Notebooks
 - Phase 1
