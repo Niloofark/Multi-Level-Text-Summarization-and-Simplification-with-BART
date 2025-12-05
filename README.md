@@ -1,4 +1,4 @@
-## Multi-Level Text Simplification with BART
+## Multi-Level Text Summarization and Simplification with BART
 
 A complete BART-based text simplification system covering data cleaning, EDA, fine-tuning, and evaluation on the OneStopEnglish and M3 datasets. The project develops level-controlled simplification models and a joint multi-dataset model that generalizes across both domains.
 
