@@ -1,4 +1,4 @@
-📘 Multi-Level Text Simplification with BART
+## Multi-Level Text Simplification with BART
 
 An end-to-end NLP pipeline for text simplification and summarization using BART, applied across two phases: OneStopEnglish (OSE) in Phase 1 and M3 in Phase 2.
 Includes full data cleaning, EDA, fine-tuning, and joint multi-dataset training.
@@ -13,30 +13,30 @@ Includes full data cleaning, EDA, fine-tuning, and joint multi-dataset training.
   - Joint Training
 
 
-📌 Overview
-Phase 1 — OneStopEnglish
+## Overview
+## Phase 1 — OneStopEnglish
 
-Clean & analyze ADV/INT/ELE aligned texts
+- Clean & analyze ADV/INT/ELE aligned texts
 
-Train BART for multi-level simplification (Adv→Int, Adv→Ele, Int→Ele)
+- Train BART for multi-level simplification (Adv→Int, Adv→Ele, Int→Ele)
 
-Phase 2 — M3 Dataset
+## Phase 2 — M3 Dataset
 
-Clean multi-domain M3 dataset
+- Clean multi-domain M3 dataset
 
-Fine-tune the Phase-1 model on M3
+- Fine-tune the Phase-1 model on M3
 
-Select best checkpoint using ROUGE
+- Select best checkpoint using ROUGE
 
-Joint Model — OSE + M3
+## Joint Model — OSE + M3
 
-Combine both datasets
+- Combine both datasets
 
-Add control tokens: <TASK:OSE> <TASK:M3> <LEVEL:adv/int/elem>
+- Add control tokens: <TASK:OSE> <TASK:M3> <LEVEL:adv/int/elem>
 
-Train unified multi-dataset simplification model
+- Train unified multi-dataset simplification model
 
-⚙️ Installation
+## Installation
 git clone https://github.com/yourusername/your-repo
 cd your-repo
 
@@ -46,7 +46,7 @@ env\Scripts\activate       # Windows
 
 pip install transformers datasets sentencepiece torch rouge-score
 
-📝 Example Input → Output
+## Example Input → Output
 
 Input (Advanced):
 The economic ramifications of the policy were profoundly underestimated by analysts.
@@ -62,7 +62,7 @@ Joint Model Example:
 Output:
 The study found weak areas in the company.
 
-🚀 How to Run
+## How to Run
 
 Run notebooks in order:
 
@@ -75,10 +75,10 @@ Run notebooks in order:
 
 All notebooks are Colab-ready with Drive paths included.
 
-🧩 Tools
+## Tools
 
 Python • PyTorch • HuggingFace Transformers • ROUGE-score • Pandas • Colab
 
-📄 License
+## License
 
 For academic use. Datasets follow original creator licenses (OSE, M3).
