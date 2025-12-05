@@ -18,7 +18,12 @@ A complete BART-based text simplification system covering data cleaning, EDA, fi
 
 - Clean & analyze ADV/INT/ELE aligned texts
 
-- Train BART for multi-level simplification (Adv→Int, Adv→Ele, Int→Ele)
+- Train BART for multi-level simplification
+- - Adv → Int
+
+-- Adv → Ele
+
+-- Int → Ele
 
 ## Phase 2 — M3 Dataset
 
